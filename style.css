@@ -73,3 +73,19 @@ body {
     top: 50.5%;
     left: .5%;
 }
+
+@media (max-width: 580px) {
+    .clock {
+        width: 20rem;
+        height: 20rem;
+        border: 15px solid rgba(0, 0, 0, 0.9);
+    }
+}
+
+@media (max-width: 420px) {
+    .clock {
+        width: 10rem;
+        height: 10rem;
+        border: 10px solid rgba(0, 0, 0, 0.9);
+    }
+}
